@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  align-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.nav{
+  margin: auto;
+  background-color: teal;
+  color: white;
+  height: 50px;
+  padding: 25px 0 0 20px;
+  font-size: larger;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+
+.nav>h3{
+  margin: auto;
+  text-align: center;
+}
+
+.nav>h3:hover{
+  color: rgb(151, 214, 241);
+}
+
+.App>button{
+  background-color: rgb(245,215,142);
+  color: black;
+  padding: 2% 4%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.App>button:hover{
+  background-color: rgb(241,198,91);
+}
+.filter{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.userData{
+  text-align: center;
+}
+.Table{
+  margin-top: 2%;
+  margin-left: auto;
+margin-right: auto;
+}
+
+.Table th{
+  color: white;
+  background-color: teal;
+  padding: 15px;
+  font-size: 20px;
+ 
+}
+.Table th:hover{
+  background-color: rgb(50, 185, 172);
+  
+}
+
+.Table td{
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+  padding: 15px;
+  font-size: 17px;
+}
+.Table td:hover{
+  background-color: rgb(27, 26, 26);
+}
+.Table img{
+  border-radius: 50%;
+  height: 60px;
+}
+.pagination_container{
+  margin-top: 2%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.pagination_container{
+  text-align: center;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  gap: 0.5%;
+  margin-bottom: 2%;
+}
+
+.pagination>button{
+  padding: 0.5%;
+  border-radius: 6px;
+  background-color: teal;
+  cursor: pointer;
+}
+.pagination>button:hover{
+  background-color: rgb(50, 185, 172);
+}
+
+
+
+
